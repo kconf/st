@@ -1,0 +1,26 @@
+diff --git a/config.def.h b/config.def.h
+index 2cd740a..b9cc49c 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Maple Mono NF CN:Regular:size=14:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+diff --git a/config.mk b/config.mk
+index fdc29a7..6c348c3 100644
+--- a/config.mk
++++ b/config.mk
+@@ -4,7 +4,7 @@ VERSION = 0.9.2
+ # Customize below to fit your system
+ 
+ # paths
+-PREFIX = /usr/local
++PREFIX = ${HOME}/.local
+ MANPREFIX = $(PREFIX)/share/man
+ 
+ X11INC = /usr/X11R6/include
